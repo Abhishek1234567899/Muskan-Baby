@@ -3,12 +3,12 @@ import React, { useState, useEffect } from 'react';
 import 'animate.css/animate.min.css';
 
 const PHOTO_PATHS = [
-  'photos/1.jpg',
-  'photos/2.jpg',
-  'photos/3.jpg',
-  'photos/4.jpg',
-  'photos/5.jpg',
-  'photos/6.jpg',
+  '/photos/1.jpg',
+  '/photos/2.jpg',
+  '/photos/3.jpg',
+  '/photos/4.jpg',
+  '/photos/5.jpg',
+  '/photos/6.jpg',
 ];
 
 const App: React.FC = () => {
