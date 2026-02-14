@@ -27,7 +27,7 @@ every memory with you has felt like a beautiful blessing.
 
 Pata nahi main aapke liye kitna sahi hoon, shayad aap isse bhi bohot achha deserve karti hongi... par main hamesha aapke saath rahunga, har kadam par, har mod par.
 
-You are not just my girlfriend. You are my comfort after a long day, 
+You are not just my Girl. You are my comfort after a long day, 
 my happiness in the smallest things, and the reason my ordinary days feel extraordinary. 
 The way you laugh, the way you care — every little part of you feels perfect to me.
 
