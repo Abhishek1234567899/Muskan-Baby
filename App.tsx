@@ -44,7 +44,7 @@ You are my always.`,
   }, []);
 
   const nextStep = () => {
-    setCurrentStep(prev => Math.min(5, prev + 1));
+    setCurrentStep(prev => Math.min(6, prev + 1));
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
@@ -183,7 +183,7 @@ You are my always.`,
             </div>
           )}
 
-          {/* Step 4: Proposal */}
+          {/* Step 4: Valentine Proposal */}
           {currentStep === 4 && (
             <div className="max-w-4xl w-full text-center space-y-12 md:space-y-16 animate__animated animate__heartBeat px-4">
               <div className="relative">
@@ -204,8 +204,33 @@ You are my always.`,
             </div>
           )}
 
-          {/* Step 5: Final Celebration */}
+          {/* Step 5: Marriage Proposal */}
           {currentStep === 5 && (
+            <div className="max-w-4xl w-full text-center space-y-12 md:space-y-16 animate__animated animate__zoomInDown px-4">
+              <div className="relative">
+                 <div className="absolute -inset-10 md:-inset-20 bg-rose-300/40 rounded-full blur-[100px] md:blur-[150px] animate-pulse"></div>
+                 <span className="text-rose-400 uppercase tracking-[0.6em] text-sm mb-4 block">A Forever Promise</span>
+                 <h2 className="text-5xl md:text-9xl font-cursive text-rose-800 leading-tight drop-shadow-2xl relative z-10">
+                   Will you marry me, Muskan?
+                 </h2>
+              </div>
+
+              <div className="glass p-8 md:p-12 rounded-[3rem] border-white/80 max-w-2xl mx-auto shadow-2xl space-y-8 relative z-10">
+                <p className="text-xl md:text-2xl font-serif text-rose-900/80 italic leading-relaxed">
+                  "I want to wake up next to you every single morning for the rest of my life. I want to build a home with you, share every joy and every tear with you."
+                </p>
+                
+                <div className="flex flex-col sm:flex-row gap-6 justify-center">
+                  <button onClick={nextStep} className="flex-1 py-6 bg-gradient-to-r from-rose-600 to-pink-600 text-white rounded-full font-bold text-3xl shadow-2xl hover:scale-105 transition-all animate-bounce">
+                    YES, FOREVER! 💍
+                  </button>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* Step 6: Final Celebration */}
+          {currentStep === 6 && (
             <div className="max-w-5xl w-full text-center space-y-10 md:space-y-12 animate__animated animate__fadeIn px-4">
               <div className="relative inline-block mb-8 md:mb-10">
                  <div className="absolute -inset-10 bg-rose-100 rounded-full blur-3xl animate-pulse"></div>
@@ -245,7 +270,7 @@ You are the best blessing my heart could ever ask for.
         {/* Floating Counter */}
         <div className="fixed bottom-8 right-8 z-40">
            <div className="glass px-6 py-3 rounded-full shadow-xl border-white/80">
-              <span className="text-rose-800 font-serif italic text-lg">{currentStep + 1} / 6</span>
+              <span className="text-rose-800 font-serif italic text-lg">{currentStep + 1} / 7</span>
            </div>
         </div>
       </div>
